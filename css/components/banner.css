@@ -1,0 +1,35 @@
+.banner {
+background-image: url('../../images/background.png');
+background-size: cover;
+background-position: center;
+padding: 100px 0px;
+}
+.presentation {
+  color: white;
+  width: auto;
+  margin: auto;
+  padding-left: 64px;
+}
+
+.banner h1 {
+  text-shadow: 1px 1px 3px rgb(0 0 0 / 50%);
+}
+
+.banner p {
+  opacity: 0.8;
+  text-shadow: 1px 1px 3px rgb(0 0 0 / 50%);
+
+}
+
+.banner a {
+  display: inline-block;
+  background-color: #1EDD88;
+  padding: 15px 25px;
+  border-radius: 50px;
+  color: white;
+}
+
+.banner a:hover {
+  background-color: #01884b;
+  transition: all .3s;
+}
